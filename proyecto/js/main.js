@@ -3,8 +3,6 @@ const botonVerHome = document.getElementById('ver-home')
 const botonVerEstilos = document.getElementById('ver-estilos')
 const botonVerAtributos = document.getElementById('ver-atributos')
 
-const botonDeshacer = document.getElementById('botonDeshacer')
-
 botonVerContenido.addEventListener('click', () => {
     window.location.href ='./contenidoHTML.html'
 })
@@ -16,11 +14,4 @@ botonVerEstilos.addEventListener('click', () => {
 })
 botonVerAtributos.addEventListener('click', () => {
     window.location.href ='./atributosHTML.html'
-})
-
-
-botonDeshacer.addEventListener('click', () => {
-    parrafoContenido.textContent = 'Texto que se va a modificar con JS.'
-    parrafoContenido.style.color = '#000000'
-    parrafoContenido.style.border = 'none'
 })
