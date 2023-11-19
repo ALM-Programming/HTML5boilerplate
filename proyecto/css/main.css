@@ -1,3 +1,77 @@
+/* MIS ESTILOS */
+html {
+  height: 100%;
+}
+body {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.top {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  margin: 0.7em;
+  padding: 0.8em;
+  cursor: pointer;
+  background-color: #333;
+  color: #ccc;
+  border-radius: 17px;
+  font-size: 1.2em;
+}
+.nav:hover {
+  color: #efe;
+  background-color: #111;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  align-self: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+
+p {
+  font-size: large;
+}
+.botonContenido {
+  margin: 0.7em;
+  padding: 0.9em;
+  cursor: pointer;
+  color: rgb(9, 97, 9);
+  background-color: #e6a8a8;
+  border-radius: 10px;
+  font-size: 1em;
+  width: 20%;
+}
+.botonContenido:hover {
+  background-color: #f34444;
+  color: #161515;
+  font-size: 1.2em;
+  padding: 0.6em;
+  font-weight: bold;
+}
+
+
+
+
+
 /*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
 
 /* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
